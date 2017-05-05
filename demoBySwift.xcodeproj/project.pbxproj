@@ -7,27 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF93390A1E6580FD004F66D6 /* SyUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9339091E6580FD004F66D6 /* SyUITextField.swift */; };
+		5D6458E128F766305A6AD0C3 /* Pods_demoBySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D980DE188B11611BC8CAA35 /* Pods_demoBySwift.framework */; };
+		C03AEB731E71AEAC00D55A3B /* SyExampleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03AEB721E71AEAC00D55A3B /* SyExampleProvider.swift */; };
+		C03AEB751E73014900D55A3B /* SyExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03AEB741E73014900D55A3B /* SyExampleVC.swift */; };
+		C03AEB781E802B0500D55A3B /* SyBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03AEB771E802B0500D55A3B /* SyBaseNavigationController.swift */; };
+		C03AEB7B1E80CA9000D55A3B /* SyBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03AEB7A1E80CA9000D55A3B /* SyBackgroundContentView.swift */; };
+		C03AEB7F1E80D3AF00D55A3B /* SyBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03AEB7E1E80D3AF00D55A3B /* SyBasicContentView.swift */; };
+		C03AEB811E80D3D300D55A3B /* SyBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03AEB801E80D3D300D55A3B /* SyBouncesContentView.swift */; };
+		C077677E1E84089900ED0363 /* SyTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077677D1E84089900ED0363 /* SyTipsContentView.swift */; };
+		C07767811E8408BB00ED0363 /* SyHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077677F1E8408BB00ED0363 /* SyHighlightableContentView.swift */; };
+		C07767821E8408BB00ED0363 /* SyIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07767801E8408BB00ED0363 /* SyIrregularityContentView.swift */; };
+		C07767841E84127000ED0363 /* SyAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07767831E84127000ED0363 /* SyAnimateTipsContentView.swift */; };
+		C07767871E84E0F200ED0363 /* SyLottieAnimateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07767861E84E0F200ED0363 /* SyLottieAnimateContentView.swift */; };
+		C077678B1E84E16600ED0363 /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = C07767881E84E16600ED0363 /* IconTransitions.json */; };
+		C077678C1E84E16600ED0363 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07767891E84E16600ED0363 /* Lottie.framework */; };
+		C077678D1E84E16600ED0363 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = C077678A1E84E16600ED0363 /* LottieLogo1.json */; };
+		C077678E1E84F01D00ED0363 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07767891E84E16600ED0363 /* Lottie.framework */; };
+		C077678F1E84F01D00ED0363 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C07767891E84E16600ED0363 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C0ADF8F31EBC3D1900E583CA /* SyLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8F21EBC3D1900E583CA /* SyLanguage.swift */; };
+		C0ADF8F51EBC3F8600E583CA /* SyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8F41EBC3F8600E583CA /* SyButton.swift */; };
+		C0ADF8F71EBC450700E583CA /* SySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8F61EBC450700E583CA /* SySystem.swift */; };
+		C0ADF8F91EBC463800E583CA /* SyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8F81EBC463800E583CA /* SyColor.swift */; };
+		C0ADF8FB1EBC48F700E583CA /* SyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8FA1EBC48F700E583CA /* SyString.swift */; };
+		C0ADF8FD1EBC4BD300E583CA /* SyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8FC1EBC4BD300E583CA /* SyTextField.swift */; };
+		C0CCE8AD1E6DCBA7004EDB19 /* SyShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCE8A91E6DCBA7004EDB19 /* SyShake.swift */; };
+		C0CCE8AE1E6DCBA7004EDB19 /* SyUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCE8AB1E6DCBA7004EDB19 /* SyUITextField.swift */; };
+		C0CCE8B11E7045E1004EDB19 /* SyBaseTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCE8B01E7045E1004EDB19 /* SyBaseTabbarVC.swift */; };
+		C0CCE8B31E705030004EDB19 /* SyBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCE8B21E705030004EDB19 /* SyBaseVC.swift */; };
+		C0CCE8B61E71A201004EDB19 /* SyLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCE8B51E71A201004EDB19 /* SyLoginVC.swift */; };
 		CFA039C61E651E300097E2F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA039C51E651E300097E2F7 /* AppDelegate.swift */; };
-		CFA039C81E651E300097E2F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA039C71E651E300097E2F7 /* ViewController.swift */; };
 		CFA039CB1E651E300097E2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA039C91E651E300097E2F7 /* Main.storyboard */; };
 		CFA039D01E651E300097E2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA039CE1E651E300097E2F7 /* LaunchScreen.storyboard */; };
 		CFA039D91E651F490097E2F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA039D81E651F490097E2F7 /* QuartzCore.framework */; };
 		CFA039DB1E655D320097E2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA039DA1E655D320097E2F7 /* Assets.xcassets */; };
-		CFA039DE1E6565A30097E2F7 /* SyShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA039DD1E6565A30097E2F7 /* SyShake.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C07767901E84F01D00ED0363 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C077678F1E84F01D00ED0363 /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		CF9339091E6580FD004F66D6 /* SyUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyUITextField.swift; path = textFieldView/SyUITextField.swift; sourceTree = "<group>"; };
+		97C98A02B66381A9EA3729F0 /* Pods-demoBySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoBySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demoBySwift/Pods-demoBySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		9D980DE188B11611BC8CAA35 /* Pods_demoBySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demoBySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03AEB721E71AEAC00D55A3B /* SyExampleProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyExampleProvider.swift; path = tabbarVC/SyExampleProvider.swift; sourceTree = "<group>"; };
+		C03AEB741E73014900D55A3B /* SyExampleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyExampleVC.swift; path = tabbarVC/SyExampleVC.swift; sourceTree = "<group>"; };
+		C03AEB771E802B0500D55A3B /* SyBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyBaseNavigationController.swift; path = navigationController/SyBaseNavigationController.swift; sourceTree = "<group>"; };
+		C03AEB7A1E80CA9000D55A3B /* SyBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyBackgroundContentView.swift; path = content/SyBackgroundContentView.swift; sourceTree = "<group>"; };
+		C03AEB7E1E80D3AF00D55A3B /* SyBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyBasicContentView.swift; path = content/SyBasicContentView.swift; sourceTree = "<group>"; };
+		C03AEB801E80D3D300D55A3B /* SyBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyBouncesContentView.swift; path = content/SyBouncesContentView.swift; sourceTree = "<group>"; };
+		C077677D1E84089900ED0363 /* SyTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyTipsContentView.swift; path = content/SyTipsContentView.swift; sourceTree = "<group>"; };
+		C077677F1E8408BB00ED0363 /* SyHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyHighlightableContentView.swift; path = content/SyHighlightableContentView.swift; sourceTree = "<group>"; };
+		C07767801E8408BB00ED0363 /* SyIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyIrregularityContentView.swift; path = content/SyIrregularityContentView.swift; sourceTree = "<group>"; };
+		C07767831E84127000ED0363 /* SyAnimateTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyAnimateTipsContentView.swift; path = content/SyAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		C07767861E84E0F200ED0363 /* SyLottieAnimateContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyLottieAnimateContentView.swift; path = content/lottie/SyLottieAnimateContentView.swift; sourceTree = "<group>"; };
+		C07767881E84E16600ED0363 /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = IconTransitions.json; path = content/lottie/IconTransitions.json; sourceTree = "<group>"; };
+		C07767891E84E16600ED0363 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = content/lottie/Lottie.framework; sourceTree = "<group>"; };
+		C077678A1E84E16600ED0363 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LottieLogo1.json; path = content/lottie/LottieLogo1.json; sourceTree = "<group>"; };
+		C08A2F61E4E6366724EBA799 /* Pods-demoBySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoBySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoBySwift/Pods-demoBySwift.release.xcconfig"; sourceTree = "<group>"; };
+		C0ADF8F21EBC3D1900E583CA /* SyLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyLanguage.swift; sourceTree = "<group>"; };
+		C0ADF8F41EBC3F8600E583CA /* SyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyButton.swift; sourceTree = "<group>"; };
+		C0ADF8F61EBC450700E583CA /* SySystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SySystem.swift; sourceTree = "<group>"; };
+		C0ADF8F81EBC463800E583CA /* SyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyColor.swift; sourceTree = "<group>"; };
+		C0ADF8FA1EBC48F700E583CA /* SyString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyString.swift; sourceTree = "<group>"; };
+		C0ADF8FC1EBC4BD300E583CA /* SyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyTextField.swift; sourceTree = "<group>"; };
+		C0CCE8A91E6DCBA7004EDB19 /* SyShake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyShake.swift; sourceTree = "<group>"; };
+		C0CCE8AB1E6DCBA7004EDB19 /* SyUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyUITextField.swift; sourceTree = "<group>"; };
+		C0CCE8B01E7045E1004EDB19 /* SyBaseTabbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyBaseTabbarVC.swift; path = tabbarVC/SyBaseTabbarVC.swift; sourceTree = "<group>"; };
+		C0CCE8B21E705030004EDB19 /* SyBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyBaseVC.swift; sourceTree = "<group>"; };
+		C0CCE8B51E71A201004EDB19 /* SyLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyLoginVC.swift; path = loginVC/SyLoginVC.swift; sourceTree = "<group>"; };
 		CFA039C21E651E300097E2F7 /* demoBySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoBySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA039C51E651E300097E2F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFA039C71E651E300097E2F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFA039CA1E651E300097E2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFA039CF1E651E300097E2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFA039D11E651E300097E2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFA039D81E651F490097E2F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CFA039DA1E655D320097E2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFA039DD1E6565A30097E2F7 /* SyShake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyShake.swift; path = shakeView/SyShake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,18 +100,108 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA039D91E651F490097E2F7 /* QuartzCore.framework in Frameworks */,
+				C077678E1E84F01D00ED0363 /* Lottie.framework in Frameworks */,
+				5D6458E128F766305A6AD0C3 /* Pods_demoBySwift.framework in Frameworks */,
+				C077678C1E84E16600ED0363 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF9339081E6580B4004F66D6 /* textFieldView */ = {
+		C03AEB761E802AC300D55A3B /* navigationController */ = {
 			isa = PBXGroup;
 			children = (
-				CF9339091E6580FD004F66D6 /* SyUITextField.swift */,
+				C03AEB771E802B0500D55A3B /* SyBaseNavigationController.swift */,
 			);
-			name = textFieldView;
+			name = navigationController;
+			sourceTree = "<group>";
+		};
+		C03AEB791E80CA5000D55A3B /* content */ = {
+			isa = PBXGroup;
+			children = (
+				C07767851E84E0B600ED0363 /* lottie */,
+				C03AEB7E1E80D3AF00D55A3B /* SyBasicContentView.swift */,
+				C03AEB7A1E80CA9000D55A3B /* SyBackgroundContentView.swift */,
+				C03AEB801E80D3D300D55A3B /* SyBouncesContentView.swift */,
+				C077677F1E8408BB00ED0363 /* SyHighlightableContentView.swift */,
+				C07767801E8408BB00ED0363 /* SyIrregularityContentView.swift */,
+				C077677D1E84089900ED0363 /* SyTipsContentView.swift */,
+				C07767831E84127000ED0363 /* SyAnimateTipsContentView.swift */,
+			);
+			name = content;
+			sourceTree = "<group>";
+		};
+		C07767851E84E0B600ED0363 /* lottie */ = {
+			isa = PBXGroup;
+			children = (
+				C07767881E84E16600ED0363 /* IconTransitions.json */,
+				C07767891E84E16600ED0363 /* Lottie.framework */,
+				C077678A1E84E16600ED0363 /* LottieLogo1.json */,
+				C07767861E84E0F200ED0363 /* SyLottieAnimateContentView.swift */,
+			);
+			name = lottie;
+			sourceTree = "<group>";
+		};
+		C0CCE8A51E6DCBA7004EDB19 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C03AEB791E80CA5000D55A3B /* content */,
+				C03AEB761E802AC300D55A3B /* navigationController */,
+				C0CCE8B41E71A1BB004EDB19 /* loginVC */,
+				C0CCE8AF1E704578004EDB19 /* tabbarVC */,
+				C0CCE8A61E6DCBA7004EDB19 /* helper */,
+				C0CCE8A81E6DCBA7004EDB19 /* shakeView */,
+				C0CCE8AA1E6DCBA7004EDB19 /* textFieldView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C0CCE8A61E6DCBA7004EDB19 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				C0ADF8FA1EBC48F700E583CA /* SyString.swift */,
+				C0ADF8FC1EBC4BD300E583CA /* SyTextField.swift */,
+				C0ADF8F21EBC3D1900E583CA /* SyLanguage.swift */,
+				C0ADF8F41EBC3F8600E583CA /* SyButton.swift */,
+				C0ADF8F61EBC450700E583CA /* SySystem.swift */,
+				C0ADF8F81EBC463800E583CA /* SyColor.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		C0CCE8A81E6DCBA7004EDB19 /* shakeView */ = {
+			isa = PBXGroup;
+			children = (
+				C0CCE8A91E6DCBA7004EDB19 /* SyShake.swift */,
+			);
+			path = shakeView;
+			sourceTree = "<group>";
+		};
+		C0CCE8AA1E6DCBA7004EDB19 /* textFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				C0CCE8AB1E6DCBA7004EDB19 /* SyUITextField.swift */,
+			);
+			path = textFieldView;
+			sourceTree = "<group>";
+		};
+		C0CCE8AF1E704578004EDB19 /* tabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				C0CCE8B01E7045E1004EDB19 /* SyBaseTabbarVC.swift */,
+				C03AEB721E71AEAC00D55A3B /* SyExampleProvider.swift */,
+				C03AEB741E73014900D55A3B /* SyExampleVC.swift */,
+			);
+			name = tabbarVC;
+			sourceTree = "<group>";
+		};
+		C0CCE8B41E71A1BB004EDB19 /* loginVC */ = {
+			isa = PBXGroup;
+			children = (
+				C0CCE8B51E71A201004EDB19 /* SyLoginVC.swift */,
+			);
+			name = loginVC;
 			sourceTree = "<group>";
 		};
 		CFA039B91E651E300097E2F7 = {
@@ -56,6 +210,7 @@
 				CFA039C41E651E300097E2F7 /* demoBySwift */,
 				CFA039C31E651E300097E2F7 /* Products */,
 				CFA039D71E651F490097E2F7 /* Frameworks */,
+				E09BB959D1FCE71992C18EA4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,14 +225,13 @@
 		CFA039C41E651E300097E2F7 /* demoBySwift */ = {
 			isa = PBXGroup;
 			children = (
-				CF9339081E6580B4004F66D6 /* textFieldView */,
-				CFA039DC1E6565430097E2F7 /* shakeView */,
-				CFA039DA1E655D320097E2F7 /* Assets.xcassets */,
+				C0CCE8A51E6DCBA7004EDB19 /* Common */,
 				CFA039C51E651E300097E2F7 /* AppDelegate.swift */,
-				CFA039C71E651E300097E2F7 /* ViewController.swift */,
+				C0CCE8B21E705030004EDB19 /* SyBaseVC.swift */,
 				CFA039C91E651E300097E2F7 /* Main.storyboard */,
 				CFA039CE1E651E300097E2F7 /* LaunchScreen.storyboard */,
 				CFA039D11E651E300097E2F7 /* Info.plist */,
+				CFA039DA1E655D320097E2F7 /* Assets.xcassets */,
 			);
 			path = demoBySwift;
 			sourceTree = "<group>";
@@ -86,16 +240,18 @@
 			isa = PBXGroup;
 			children = (
 				CFA039D81E651F490097E2F7 /* QuartzCore.framework */,
+				9D980DE188B11611BC8CAA35 /* Pods_demoBySwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CFA039DC1E6565430097E2F7 /* shakeView */ = {
+		E09BB959D1FCE71992C18EA4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CFA039DD1E6565A30097E2F7 /* SyShake.swift */,
+				97C98A02B66381A9EA3729F0 /* Pods-demoBySwift.debug.xcconfig */,
+				C08A2F61E4E6366724EBA799 /* Pods-demoBySwift.release.xcconfig */,
 			);
-			name = shakeView;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,9 +261,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFA039D41E651E300097E2F7 /* Build configuration list for PBXNativeTarget "demoBySwift" */;
 			buildPhases = (
+				4985CBBD4CE6EE469E605826 /* [CP] Check Pods Manifest.lock */,
 				CFA039BE1E651E300097E2F7 /* Sources */,
 				CFA039BF1E651E300097E2F7 /* Frameworks */,
 				CFA039C01E651E300097E2F7 /* Resources */,
+				E45F78E73ED8ECD880424545 /* [CP] Embed Pods Frameworks */,
+				1949BB5C51D5E0CEF0AD30A6 /* [CP] Copy Pods Resources */,
+				C07767901E84F01D00ED0363 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,7 +290,6 @@
 				TargetAttributes = {
 					CFA039C11E651E300097E2F7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = FCF8WWF39M;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -161,20 +320,89 @@
 				CFA039D01E651E300097E2F7 /* LaunchScreen.storyboard in Resources */,
 				CFA039DB1E655D320097E2F7 /* Assets.xcassets in Resources */,
 				CFA039CB1E651E300097E2F7 /* Main.storyboard in Resources */,
+				C077678D1E84E16600ED0363 /* LottieLogo1.json in Resources */,
+				C077678B1E84E16600ED0363 /* IconTransitions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1949BB5C51D5E0CEF0AD30A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demoBySwift/Pods-demoBySwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4985CBBD4CE6EE469E605826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E45F78E73ED8ECD880424545 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demoBySwift/Pods-demoBySwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CFA039BE1E651E300097E2F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA039C81E651E300097E2F7 /* ViewController.swift in Sources */,
-				CF93390A1E6580FD004F66D6 /* SyUITextField.swift in Sources */,
+				C03AEB781E802B0500D55A3B /* SyBaseNavigationController.swift in Sources */,
+				C03AEB7B1E80CA9000D55A3B /* SyBackgroundContentView.swift in Sources */,
+				C0CCE8AD1E6DCBA7004EDB19 /* SyShake.swift in Sources */,
+				C0ADF8FD1EBC4BD300E583CA /* SyTextField.swift in Sources */,
+				C03AEB7F1E80D3AF00D55A3B /* SyBasicContentView.swift in Sources */,
+				C0CCE8AE1E6DCBA7004EDB19 /* SyUITextField.swift in Sources */,
+				C0ADF8F51EBC3F8600E583CA /* SyButton.swift in Sources */,
+				C03AEB751E73014900D55A3B /* SyExampleVC.swift in Sources */,
+				C0ADF8FB1EBC48F700E583CA /* SyString.swift in Sources */,
+				C0CCE8B61E71A201004EDB19 /* SyLoginVC.swift in Sources */,
+				C0ADF8F71EBC450700E583CA /* SySystem.swift in Sources */,
+				C07767841E84127000ED0363 /* SyAnimateTipsContentView.swift in Sources */,
+				C0ADF8F91EBC463800E583CA /* SyColor.swift in Sources */,
+				C0CCE8B31E705030004EDB19 /* SyBaseVC.swift in Sources */,
+				C07767811E8408BB00ED0363 /* SyHighlightableContentView.swift in Sources */,
+				C077677E1E84089900ED0363 /* SyTipsContentView.swift in Sources */,
+				C07767871E84E0F200ED0363 /* SyLottieAnimateContentView.swift in Sources */,
+				C03AEB811E80D3D300D55A3B /* SyBouncesContentView.swift in Sources */,
+				C03AEB731E71AEAC00D55A3B /* SyExampleProvider.swift in Sources */,
 				CFA039C61E651E300097E2F7 /* AppDelegate.swift in Sources */,
-				CFA039DE1E6565A30097E2F7 /* SyShake.swift in Sources */,
+				C0ADF8F31EBC3D1900E583CA /* SyLanguage.swift in Sources */,
+				C0CCE8B11E7045E1004EDB19 /* SyBaseTabbarVC.swift in Sources */,
+				C07767821E8408BB00ED0363 /* SyIrregularityContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +521,14 @@
 		};
 		CFA039D51E651E300097E2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C98A02B66381A9EA3729F0 /* Pods-demoBySwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FCF8WWF39M;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoBySwift/Common/content/lottie",
+				);
 				INFOPLIST_FILE = demoBySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sxm5220.demoBySwift;
@@ -306,9 +539,14 @@
 		};
 		CFA039D61E651E300097E2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08A2F61E4E6366724EBA799 /* Pods-demoBySwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FCF8WWF39M;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/demoBySwift/Common/content/lottie",
+				);
 				INFOPLIST_FILE = demoBySwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sxm5220.demoBySwift;

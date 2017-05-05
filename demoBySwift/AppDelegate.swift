@@ -17,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         UIApplication.shared.statusBarStyle = .lightContent
+        let rootViewController = SyBaseVC()
+        
+        let navigationController = UINavigationController(rootViewController: rootViewController)
+        
+        //状态栏字体颜色 白色
+        //navigationController.navigationBar.barStyle = UIBarStyle.black
+        
+        window?.rootViewController = navigationController
         return true
     }
 
