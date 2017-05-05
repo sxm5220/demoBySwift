@@ -30,6 +30,10 @@
 		C0ADF8F91EBC463800E583CA /* SyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8F81EBC463800E583CA /* SyColor.swift */; };
 		C0ADF8FB1EBC48F700E583CA /* SyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8FA1EBC48F700E583CA /* SyString.swift */; };
 		C0ADF8FD1EBC4BD300E583CA /* SyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8FC1EBC4BD300E583CA /* SyTextField.swift */; };
+		C0ADF9001EBC769900E583CA /* SyRadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF8FF1EBC769900E583CA /* SyRadarView.swift */; };
+		C0ADF9041EBC868D00E583CA /* SyRadarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ADF9031EBC868D00E583CA /* SyRadarVC.swift */; };
+		C0ADF9081EBC8D8300E583CA /* UK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0ADF9071EBC8D8300E583CA /* UK@2x.png */; };
+		C0ADF90E1EBC932200E583CA /* swift-programming-language.epub in Resources */ = {isa = PBXBuildFile; fileRef = C0ADF90D1EBC932200E583CA /* swift-programming-language.epub */; };
 		C0CCE8AD1E6DCBA7004EDB19 /* SyShake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCE8A91E6DCBA7004EDB19 /* SyShake.swift */; };
 		C0CCE8AE1E6DCBA7004EDB19 /* SyUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCE8AB1E6DCBA7004EDB19 /* SyUITextField.swift */; };
 		C0CCE8B11E7045E1004EDB19 /* SyBaseTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCE8B01E7045E1004EDB19 /* SyBaseTabbarVC.swift */; };
@@ -80,6 +84,10 @@
 		C0ADF8F81EBC463800E583CA /* SyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyColor.swift; sourceTree = "<group>"; };
 		C0ADF8FA1EBC48F700E583CA /* SyString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyString.swift; sourceTree = "<group>"; };
 		C0ADF8FC1EBC4BD300E583CA /* SyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyTextField.swift; sourceTree = "<group>"; };
+		C0ADF8FF1EBC769900E583CA /* SyRadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyRadarView.swift; path = radarView/SyRadarView.swift; sourceTree = "<group>"; };
+		C0ADF9031EBC868D00E583CA /* SyRadarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyRadarVC.swift; path = radarView/SyRadarVC.swift; sourceTree = "<group>"; };
+		C0ADF9071EBC8D8300E583CA /* UK@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UK@2x.png"; sourceTree = "<group>"; };
+		C0ADF90D1EBC932200E583CA /* swift-programming-language.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "swift-programming-language.epub"; sourceTree = "<group>"; };
 		C0CCE8A91E6DCBA7004EDB19 /* SyShake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyShake.swift; sourceTree = "<group>"; };
 		C0CCE8AB1E6DCBA7004EDB19 /* SyUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyUITextField.swift; sourceTree = "<group>"; };
 		C0CCE8B01E7045E1004EDB19 /* SyBaseTabbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SyBaseTabbarVC.swift; path = tabbarVC/SyBaseTabbarVC.swift; sourceTree = "<group>"; };
@@ -143,9 +151,44 @@
 			name = lottie;
 			sourceTree = "<group>";
 		};
+		C0ADF8FE1EBC766400E583CA /* radarView */ = {
+			isa = PBXGroup;
+			children = (
+				C0ADF9031EBC868D00E583CA /* SyRadarVC.swift */,
+				C0ADF8FF1EBC769900E583CA /* SyRadarView.swift */,
+			);
+			name = radarView;
+			sourceTree = "<group>";
+		};
+		C0ADF9051EBC8D8300E583CA /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				C0ADF90C1EBC932200E583CA /* programmingLanguage */,
+				C0ADF9061EBC8D8300E583CA /* image */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		C0ADF9061EBC8D8300E583CA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C0ADF9071EBC8D8300E583CA /* UK@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		C0ADF90C1EBC932200E583CA /* programmingLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				C0ADF90D1EBC932200E583CA /* swift-programming-language.epub */,
+			);
+			path = programmingLanguage;
+			sourceTree = "<group>";
+		};
 		C0CCE8A51E6DCBA7004EDB19 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C0ADF8FE1EBC766400E583CA /* radarView */,
 				C03AEB791E80CA5000D55A3B /* content */,
 				C03AEB761E802AC300D55A3B /* navigationController */,
 				C0CCE8B41E71A1BB004EDB19 /* loginVC */,
@@ -225,6 +268,7 @@
 		CFA039C41E651E300097E2F7 /* demoBySwift */ = {
 			isa = PBXGroup;
 			children = (
+				C0ADF9051EBC8D8300E583CA /* resource */,
 				C0CCE8A51E6DCBA7004EDB19 /* Common */,
 				CFA039C51E651E300097E2F7 /* AppDelegate.swift */,
 				C0CCE8B21E705030004EDB19 /* SyBaseVC.swift */,
@@ -319,9 +363,11 @@
 			files = (
 				CFA039D01E651E300097E2F7 /* LaunchScreen.storyboard in Resources */,
 				CFA039DB1E655D320097E2F7 /* Assets.xcassets in Resources */,
+				C0ADF9081EBC8D8300E583CA /* UK@2x.png in Resources */,
 				CFA039CB1E651E300097E2F7 /* Main.storyboard in Resources */,
 				C077678D1E84E16600ED0363 /* LottieLogo1.json in Resources */,
 				C077678B1E84E16600ED0363 /* IconTransitions.json in Resources */,
+				C0ADF90E1EBC932200E583CA /* swift-programming-language.epub in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +431,7 @@
 				C0CCE8AD1E6DCBA7004EDB19 /* SyShake.swift in Sources */,
 				C0ADF8FD1EBC4BD300E583CA /* SyTextField.swift in Sources */,
 				C03AEB7F1E80D3AF00D55A3B /* SyBasicContentView.swift in Sources */,
+				C0ADF9001EBC769900E583CA /* SyRadarView.swift in Sources */,
 				C0CCE8AE1E6DCBA7004EDB19 /* SyUITextField.swift in Sources */,
 				C0ADF8F51EBC3F8600E583CA /* SyButton.swift in Sources */,
 				C03AEB751E73014900D55A3B /* SyExampleVC.swift in Sources */,
@@ -396,6 +443,7 @@
 				C0CCE8B31E705030004EDB19 /* SyBaseVC.swift in Sources */,
 				C07767811E8408BB00ED0363 /* SyHighlightableContentView.swift in Sources */,
 				C077677E1E84089900ED0363 /* SyTipsContentView.swift in Sources */,
+				C0ADF9041EBC868D00E583CA /* SyRadarVC.swift in Sources */,
 				C07767871E84E0F200ED0363 /* SyLottieAnimateContentView.swift in Sources */,
 				C03AEB811E80D3D300D55A3B /* SyBouncesContentView.swift in Sources */,
 				C03AEB731E71AEAC00D55A3B /* SyExampleProvider.swift in Sources */,

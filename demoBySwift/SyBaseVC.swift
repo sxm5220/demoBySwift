@@ -23,7 +23,7 @@ class SyBaseVC: UIViewController,
         
         self.view.backgroundColor = UIColor.lightGray
         
-        self.dataSource = NSMutableArray.init(array: ["登陆","工具栏"])
+        self.dataSource = NSMutableArray.init(array: ["登陆","工具栏","雷达搜索"])
         
         self.tableView = UITableView.init()
         self.tableView.frame = CGRect.init(x: 0, y: 0, width: screenWidth(), height: screenHeight())
@@ -56,6 +56,9 @@ class SyBaseVC: UIViewController,
         case 1:
             let loginVC = SyBaseTabbarVC()
             self.navigationController?.pushViewController(loginVC, animated: true)
+        case 2:
+            let radarVC = SyRadarVC()
+            self.navigationController?.pushViewController(radarVC, animated: true)
         default:
             break;
         }
